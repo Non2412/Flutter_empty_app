@@ -18,11 +18,11 @@ class _MyHomePageState extends State<MyHomePage> {
           children: [
             Text(
               "Hello Sittirat",
-               style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold)
-               ),
-            Text
-            ("Welcome to your Flutter app!",
-             style: TextStyle(fontStyle: 18, fontWeight: FontWeight.bold)
+              style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold), // เพิ่ม , ที่นี่
+            ),
+            Text(
+              "Welcome to your Flutter app!", // แก้ไขการขึ้นบรรทัดใหม่
+              style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold), // แก้ fontStyle เป็น fontSize และเพิ่ม ,
             ),
           ],
         ),

@@ -10,7 +10,14 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(home: MyHomePage()
+    return MaterialApp(
+      home: const MyHomePage(), // เพิ่มบรรทัดนี้
+      theme: ThemeData(
+        appBarTheme: const AppBarTheme(
+          backgroundColor: Colors.cyan,
+          foregroundColor: Colors.grey,
+        ),
+      ),
     );
   }
 }
